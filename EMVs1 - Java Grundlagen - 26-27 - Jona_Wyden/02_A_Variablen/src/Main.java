@@ -3,6 +3,8 @@ public class Main {
         //--------------------------------------------------------------------------------------------------------------
         // Naming
 
+        //hi
+
         // Which are valid variable names and which are not?
         // Try to determine what is valid and what is not without uncommenting the code.
         // If something is not valid, write a comment explaining why it is not valid.
