@@ -158,6 +158,8 @@ public class Main {
         System.out.println("Do you want to go to the mountains? (true or false)");
         goToMountains = scannerExercise5.nextBoolean();
 
+
+        //1. Variante mit XOR
         if (goToBeach ^ goToMountains){
             if (goToBeach){
                 System.out.println("Packing sunscreen for the beach!");
@@ -171,6 +173,18 @@ public class Main {
                 System.out.println("Don't be lazy, let's go somewhere!");
             }
        }
+
+        //2. Variante mit and
+
+        if (goToBeach == true && goToMountains == false){
+            System.out.println("Packing sunscreen for the beach!");
+        } else if (goToMountains == true && goToBeach == false) {
+            System.out.println("Bringing hiking boots for the mountains!");
+        } else if (goToBeach == true && goToMountains == true) {
+            System.out.println("You can't go to both due to time constrains");
+        }else{
+            System.out.println("Don't be lazy, let's go somewhere!");
+        }
 
 
         //--------------------------------------------------------------------------------------------------------------
