@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         //--------------------------------------------------------------------------------------------------------------
-       /* System.out.println("Exercise 01");
+       System.out.println("Exercise 01");
         // 01. Check if the two Strings below are the same with the "=="-operator.
         //     Print either true or false, depending on if they are the same or not.
 
@@ -70,7 +70,7 @@ public class Main {
         // Your answer here:
         //I dont know
 
-*/
+
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 03");
         // 03.  Ask a user for a number.
@@ -80,7 +80,7 @@ public class Main {
         int number = Integer.parseInt(inputExercise2);
 
         //       Check if the number is greater than 50 and smaller than 100 by using the &&-operator.
-        if (number < 50 && number > 100){
+        if (number > 50 && number < 100){
             System.out.println("Your Nummber is between 50 and 100.");
         }else{
             System.out.println("Your Nummber is not between 50 and 100.");
@@ -98,17 +98,16 @@ public class Main {
         String inputExercise3 = scannerExercise2.nextLine();
         int number1 = Integer.parseInt(inputExercise2);
         //      Check, if the number is smaller than 50 or (inclusive or) greater than 100 by using the ||-operator.
-        if (number1 < 50 || number1 > 100){
-            System.out.println("Your Nummber is  between 50 and 100.");
+        if (number1 > 50 || number1 < 100){
+            System.out.println("Your Nummber is  not between 50 and 100.");
         }else{
-            System.out.println("Your Nummber is not between 50 and 100.");
+            System.out.println("Your Nummber is between 50 and 100.");
         }
         //      If true, print that the number is out of the 50-100 bound.
         //      If false, print, that the number is in the 50-100 bound.
         //      Test your program with reasonable values like 25, 75, 150
 
 
-/*
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 05");
         // 05.  Use the variable to check if the variable is true or not in an if-statement using the "!"-operator.
@@ -159,15 +158,19 @@ public class Main {
         System.out.println("Do you want to go to the mountains? (true or false)");
         goToMountains = scannerExercise5.nextBoolean();
 
-        if (goToBeach == true && goToMountains == false){
-            System.out.println("Packing sunscreen for the beach!");
-        } else if (goToMountains == true && goToBeach == false) {
-            System.out.println("Bringing hiking boots for the mountains!");
-        } else if (goToBeach == true && goToMountains == true) {
-            System.out.println("You can't go to both due to time constrains");
-        }else{
-            System.out.println("Don't be lazy, let's go somewhere!");
-        }
+        if (goToBeach ^ goToMountains){
+            if (goToBeach){
+                System.out.println("Packing sunscreen for the beach!");
+            }else{
+                System.out.println("Bringing hiking boots for the mountains");
+            }
+       }else{
+            if (goToBeach){
+                System.out.println("You can't go to both due to time constrains");
+            }else{
+                System.out.println("Don't be lazy, let's go somewhere!");
+            }
+       }
 
 
         //--------------------------------------------------------------------------------------------------------------
@@ -215,7 +218,6 @@ public class Main {
             }else{
                     System.out.println("The student cannot attend the field trip.");
                 }
-*/
 
 
     }
