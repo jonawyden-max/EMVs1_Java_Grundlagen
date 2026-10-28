@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         //--------------------------------------------------------------------------------------------------------------
-        System.out.println("Exercise 01");
+       /* System.out.println("Exercise 01");
         // 01. Check if the two Strings below are the same with the "=="-operator.
         //     Print either true or false, depending on if they are the same or not.
 
@@ -11,18 +11,42 @@ public class Main {
         String s2 = "Hello";
 
         // Compare the strings here with  "=="
-        System.out.println();
+        if (s1 == s2){
+            System.out.println("Yes");
+        }else{
+            System.out.println("No");
+        }
 
         //----
         // Read a user input and save it to another string called s3. The user should type in "Hello" (just like s1/s2).
         // Now compare s3 with s1. Is it still true?
 
         // Compare the strings here with  "=="
-        System.out.println();
+        Scanner userInput1 = new Scanner(System.in);
+        System.out.println("Enter Hello:");
+        String s3 = userInput1.nextLine();
+
+        if(s2 == userInput1) {
+            System.out.println("Yes, true1");
+        }else{
+            System.out.println("No1");
+        }
 
         //----
         // Now instead of using the == operator, use "equals" and compare the
         // Strings again. What is the result now?
+
+        if (s1 .equals(s2)){
+            System.out.println("Yes3");
+        }else{
+            System.out.println("No3");
+        }
+
+        if (s1 .equals(s3)){
+            System.out.println("Yes4");
+        }else{
+            System.out.println("No4");
+        }
 
         // Compare the strings here with "equals"
         System.out.println();
@@ -44,12 +68,22 @@ public class Main {
         }
 
         // Your answer here:
-
-
+        //I dont know
+*/
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 03");
         // 03.  Ask a user for a number.
+        Scanner scannerExercise2 = new Scanner(System.in);
+        System.out.println("Type a Number:");
+        String inputExercise2 = scannerExercise2.nextLine();
+        int number = Integer.parseInt(inputExercise2);
+
         //      Check if the number is greater than 50 and smaller than 100 by using the &&-operator.
+        if (number < 50 && number > 100){
+            System.out.println("Your Nummber is between 50 and 100.");
+        }else{
+            System.out.println("Your Nummber is not between 50 and 100.");
+        }
         //      If so, print "Number is between 50 and 100".
         //      If not, print "Number is not between 50 and 100".
         //      Test your program with reasonable values like 25, 75, 150
@@ -58,10 +92,20 @@ public class Main {
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 04");
         // 04.  Ask a user for a number.
+        Scanner scannerExercise3 = new Scanner(System.in);
+        System.out.println("Type a Number:");
+        String inputExercise3 = scannerExercise2.nextLine();
+        int number1 = Integer.parseInt(inputExercise2);
         //      Check, if the number is smaller than 50 or (inclusive or) greater than 100 by using the ||-operator.
+        if (number1 < 50 || number1 > 100){
+            System.out.println("Your Nummber is  between 50 and 100.");
+    }else{
+        System.out.println("Your Nummber is not between 50 and 100.");
+    }
         //      If true, print that the number is out of the 50-100 bound.
         //      If false, print, that the number is in the 50-100 bound.
         //      Test your program with reasonable values like 25, 75, 150
+
 
 
         //--------------------------------------------------------------------------------------------------------------
@@ -119,7 +163,6 @@ public class Main {
         //      Hint: You might want to use brackets"()" to prioritize logic, but it is not necessary to do so.
         //
         //      Test your program with different combinations of inputs to ensure it works correctly.
-
 
 
     }
