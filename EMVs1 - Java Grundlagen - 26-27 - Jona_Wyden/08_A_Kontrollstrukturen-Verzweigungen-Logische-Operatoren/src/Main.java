@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         //--------------------------------------------------------------------------------------------------------------
-       System.out.println("Exercise 01");
+       /*System.out.println("Exercise 01");
         // 01. Check if the two Strings below are the same with the "=="-operator.
         //     Print either true or false, depending on if they are the same or not.
 
@@ -229,9 +229,42 @@ public class Main {
                     }else{
                         System.out.println("The student cannot attend the field trip.");
                     }
-            }else{
+                }else{
                     System.out.println("The student cannot attend the field trip.");
                 }
+
+        *///Variante 2 mit abbrechen
+        Scanner scannerExercise0 = new Scanner(System.in);
+        System.out.print("In which EMV is the student (1, 2, 3 or 4)? ");
+        int emvs1 = scannerExercise0.nextInt();
+
+        if (emvs1 == 1 || emvs1 == 2){
+
+            Scanner scannerExercise9 = new Scanner(System.in);
+            System.out.print("Has the student paid the trip (true/false)? ");
+            boolean paidTrip2 = scannerExercise9.nextBoolean();
+
+            if (paidTrip2 == true){
+
+                Scanner scannerExercise11 = new Scanner(System.in);
+                System.out.print("Was the student sick recently (true/false)? ");
+                boolean isSick1 = scannerExercise11.nextBoolean();
+
+                if (isSick1 == false){
+                    System.out.println("The student can attend the field trip.");
+                }else{
+                    System.out.println("The student cannot attend the field trip.");
+                }
+
+            }else{
+                System.out.println("The student cannot attend the field trip.");
+            }
+
+        }else{
+            System.out.println("The student cannot attend the field trip.");
+        }
+
+
 
 
     }
