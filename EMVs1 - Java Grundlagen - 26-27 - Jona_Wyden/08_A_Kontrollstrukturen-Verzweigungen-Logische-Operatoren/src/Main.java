@@ -69,6 +69,7 @@ public class Main {
 
         // Your answer here:
         //I dont know
+
 */
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 03");
@@ -78,7 +79,7 @@ public class Main {
         String inputExercise2 = scannerExercise2.nextLine();
         int number = Integer.parseInt(inputExercise2);
 
-        //      Check if the number is greater than 50 and smaller than 100 by using the &&-operator.
+        //       Check if the number is greater than 50 and smaller than 100 by using the &&-operator.
         if (number < 50 && number > 100){
             System.out.println("Your Nummber is between 50 and 100.");
         }else{
@@ -99,25 +100,29 @@ public class Main {
         //      Check, if the number is smaller than 50 or (inclusive or) greater than 100 by using the ||-operator.
         if (number1 < 50 || number1 > 100){
             System.out.println("Your Nummber is  between 50 and 100.");
-    }else{
-        System.out.println("Your Nummber is not between 50 and 100.");
-    }
+        }else{
+            System.out.println("Your Nummber is not between 50 and 100.");
+        }
         //      If true, print that the number is out of the 50-100 bound.
         //      If false, print, that the number is in the 50-100 bound.
         //      Test your program with reasonable values like 25, 75, 150
 
 
-
+/*
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 05");
         // 05.  Use the variable to check if the variable is true or not in an if-statement using the "!"-operator.
         //      If the condition is true, print "Movie time!", else "Not watching a movie with lights on...");
 
         boolean lightsTurnedOff = true;
+        if (lightsTurnedOff == !true){//false
+            System.out.println("Not watching a movie with lights on.");
+        }else{
+            System.out.println("Movie time!");
+        }
 
 
         // After implementing the solution above, use the shortform of if-else to reproduce the same output
-
 
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 06");
@@ -143,6 +148,27 @@ public class Main {
 
         //      Solve this task with only an XOR, but not an OR or an AND.
 
+        boolean goToBeach;
+        boolean goToMountains;
+
+        Scanner scannerExercise4 = new Scanner(System.in);
+        System.out.println("Do you want to go to the beach? (true or false)");
+        goToBeach = scannerExercise4.nextBoolean();
+
+        Scanner scannerExercise5 = new Scanner(System.in);
+        System.out.println("Do you want to go to the mountains? (true or false)");
+        goToMountains = scannerExercise5.nextBoolean();
+
+        if (goToBeach == true && goToMountains == false){
+            System.out.println("Packing sunscreen for the beach!");
+        } else if (goToMountains == true && goToBeach == false) {
+            System.out.println("Bringing hiking boots for the mountains!");
+        } else if (goToBeach == true && goToMountains == true) {
+            System.out.println("You can't go to both due to time constrains");
+        }else{
+            System.out.println("Don't be lazy, let's go somewhere!");
+        }
+
 
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 07");
@@ -163,6 +189,33 @@ public class Main {
         //      Hint: You might want to use brackets"()" to prioritize logic, but it is not necessary to do so.
         //
         //      Test your program with different combinations of inputs to ensure it works correctly.
+
+        Scanner scannerExercise6 = new Scanner(System.in);
+                System.out.print("In which EMV is the student (1, 2, 3 or 4)? ");
+                int emvs = scannerExercise6.nextInt();
+
+        Scanner scannerExercise7 = new Scanner(System.in);
+                System.out.print("Has the student paid the trip (true/false)? ");
+                boolean paidTrip = scannerExercise7.nextBoolean();
+
+        Scanner scannerExercise8 = new Scanner(System.in);
+                System.out.print("Was the student sick recently (true/false)? ");
+                boolean isSick = scannerExercise8.nextBoolean();
+
+                if (emvs == 1 || emvs == 2){
+                    if (paidTrip == true){
+                        if (isSick == false){
+                            System.out.println("The student can attend the field trip!");
+                        }else{
+                            System.out.println("The student cannot attend the field trip.");
+                        }
+                    }else{
+                        System.out.println("The student cannot attend the field trip.");
+                    }
+            }else{
+                    System.out.println("The student cannot attend the field trip.");
+                }
+*/
 
 
     }
