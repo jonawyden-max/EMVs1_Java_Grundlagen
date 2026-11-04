@@ -4,41 +4,60 @@ public class Main {
     public static void main(String[] args) {
 
         //--------------------------------------------------------------------------------------------------------------
-        System.out.println("Exercise 01");
+        /*System.out.println("Exercise 01");
         // 01. Solve this exercise with the help of both, the old switch-statement and the new switch expression.
         //     Ask a user for a number between 1 and 7.
         //     If the number is a 1, then print out Monday.  2 = Tuesday, 3 = Wednesday and so on until 7 = Sunday.
         //     Print "Not a weekday!" if it's not a number between 1-7.
 
         Scanner scannerExercise1_1 = new Scanner(System.in);
-        System.out.println("Enter a nummber between 1 and 7");
+        System.out.println("Enter a number between 1 and 7");
         int numberWeek = scannerExercise1_1.nextInt();
 
-        string Weekday = switch (numberWeek){
-            case 1 ->"Mondey"
-            case 2 ->"Tusday"
-            case 3 ->"Wendsday"
-            case 4 ->"Thursday"
-            case 5 ->"Friday"
-            case 6 ->"Saturday"
-            case 7 ->"Sunday"
-            default -> "Your nummber is not between 1 and 7!"
-        }
+        String Weekday = switch (numberWeek){
+            case 1 ->"Mondey";
+            case 2 ->"Tusday";
+            case 3 ->"Wendsday";
+            case 4 ->"Thursday";
+            case 5 ->"Friday";
+            case 6 ->"Saturday";
+            case 7 ->"Sunday";
+            default -> "Your nu0mber is not between 1 and 7!";
+        };
         System.out.println(Weekday);
 
-            String Weekday2
-            switch (numberWeek){
-                case: 1
-                 "Mondey"
-            case 2 ->"Tusday"
-            case 3 ->"Wendsday"
-            case 4 ->"Thursday"
-            case 5 ->"Friday"
-            case 6 ->"Saturday"
-            case 7 ->"Sunday"
-            default -> "Your nummber is not between 1 and 7!"
+        String Weekday2;
 
+        switch (numberWeek) {
+            case 1:
+                Weekday2 = "Monday";
+                break;
+            case 2:
+                Weekday2 = "Tuesday";
+                break;
+            case 3:
+                Weekday2 = "Wednesday";
+                break;
+            case 4:
+                Weekday2 = "Thursday";
+                break;
+            case 5:
+                Weekday2 = "Friday";
+                break;
+            case 6:
+                Weekday2 = "Saturday";
+                break;
+            case 7:
+                Weekday2 = "Sunday";
+                break;
+            default:
+                Weekday2 = "Your number is not between 1 and 7!";
+                break;
+        }
 
+        System.out.println(Weekday2);
+
+*/
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 02");
         // 02. Solve this exercise with the help of both, the old switch-statement and the new switch expression.
@@ -48,6 +67,18 @@ public class Main {
         //     Example:  "January" -> "Winter"
         //     Example: "EMVs" -> "Not a month!";
         //     Write the old switch-statement so, that it only contains 4 breaks.
+
+       Scanner scannerExercise2_1 = new Scanner(System.in);
+        System.out.println("Enter a nummber between 1 and 12");
+        int numberMonth = scannerExercise2_1.nextInt();
+
+        String seasen = switch (numberMonth){
+            case 1, 2, 12 ->
+            case 3, 4, 5 ->
+            case 4, 5, 6 ->
+            case 7, 8, 9 ->
+            default ->
+        }
 
 
         //--------------------------------------------------------------------------------------------------------------
