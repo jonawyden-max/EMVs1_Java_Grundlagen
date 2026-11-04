@@ -245,12 +245,25 @@ public class Main {
         int numberToCalculate1 = scannerExercise6_1.nextInt();
 
         Scanner scannerExercise6_2 = new Scanner(System.in);
-        System.out.println("Enter a operation +, -, * or /:");
-        String operation = scannerExercise6_2.next();
+        System.out.println("Enter a operation + = 1, - = 2, * = 3 or / = 4:");
+        int operation = scannerExercise6_2.nextInt();
 
         Scanner scannerExercise6_3 = new Scanner(System.in);
         System.out.println("Enter a secend number you want to calculate with:");
         int numberToCalculate2 = scannerExercise6_3.nextInt();
+
+        switch (operation) {
+            case 1 -> System.out.println(numberToCalculate1 + numberToCalculate2);
+            case 2 -> System.out.println(numberToCalculate1 - numberToCalculate2);
+            case 3 -> System.out.println(numberToCalculate1 * numberToCalculate2);
+            case 4 -> {
+                if (numberToCalculate1 == 0 || numberToCalculate2 == 0){
+                    System.out.println("Not Possible");
+                }else{
+                 System.out.println(numberToCalculate1 / numberToCalculate2);
+                }}
+            default -> System.out.println("data input wrong");
+        }
 
 
 
