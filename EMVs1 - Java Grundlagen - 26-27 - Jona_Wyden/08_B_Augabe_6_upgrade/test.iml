@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../EMVs1 - Java Grundlagen - 26-27 - Jona_Wyden/08_B_Augabe_6_upgrade">
+      <sourceFolder url="file://$MODULE_DIR$/../EMVs1 - Java Grundlagen - 26-27 - Jona_Wyden/08_B_Augabe_6_upgrade/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
