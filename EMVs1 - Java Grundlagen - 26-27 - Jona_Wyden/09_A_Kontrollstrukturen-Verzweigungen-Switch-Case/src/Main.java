@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         //--------------------------------------------------------------------------------------------------------------
-        /*System.out.println("Exercise 01");
+        System.out.println("Exercise 01");
         // 01. Solve this exercise with the help of both, the old switch-statement and the new switch expression.
         //     Ask a user for a number between 1 and 7.
         //     If the number is a 1, then print out Monday.  2 = Tuesday, 3 = Wednesday and so on until 7 = Sunday.
@@ -233,7 +233,7 @@ public class Main {
 
         System.out.println(numberInLanguage);
 
-     */   //--------------------------------------------------------------------------------------------------------------
+        //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 06");
         // 06.   Solve this exercise with whatever switch you feel more comfortable (new or old)
         //      Write a small calculator. A user types in two numbers and an operation ('addition', 'subtraction', 'division', 'multiplication').
