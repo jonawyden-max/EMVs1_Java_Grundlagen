@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         //--------------------------------------------------------------------------------------------------------------
-       /*System.out.println("Exercise 01");
+       System.out.println("Exercise 01");
         // 01. Check if the two Strings below are the same with the "=="-operator.
         //     Print either true or false, depending on if they are the same or not.
 
@@ -233,7 +233,7 @@ public class Main {
                     System.out.println("The student cannot attend the field trip.");
                 }
 
-        *///Variante 2 mit abbrechen
+        //Variante 2 mit abbrechen
         Scanner scannerExercise0 = new Scanner(System.in);
         System.out.print("In which EMV is the student (1, 2, 3 or 4)? ");
         int emvs1 = scannerExercise0.nextInt();

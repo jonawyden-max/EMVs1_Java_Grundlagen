@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -7,6 +9,34 @@ public class Main {
         //     Ask a user for a number between 1 and 7.
         //     If the number is a 1, then print out Monday.  2 = Tuesday, 3 = Wednesday and so on until 7 = Sunday.
         //     Print "Not a weekday!" if it's not a number between 1-7.
+
+        Scanner scannerExercise1_1 = new Scanner(System.in);
+        System.out.println("Enter a nummber between 1 and 7");
+        int numberWeek = scannerExercise1_1.nextInt();
+
+        string Weekday = switch (numberWeek){
+            case 1 ->"Mondey"
+            case 2 ->"Tusday"
+            case 3 ->"Wendsday"
+            case 4 ->"Thursday"
+            case 5 ->"Friday"
+            case 6 ->"Saturday"
+            case 7 ->"Sunday"
+            default -> "Your nummber is not between 1 and 7!"
+        }
+        System.out.println(Weekday);
+
+            String Weekday2
+            switch (numberWeek){
+                case: 1
+                 "Mondey"
+            case 2 ->"Tusday"
+            case 3 ->"Wendsday"
+            case 4 ->"Thursday"
+            case 5 ->"Friday"
+            case 6 ->"Saturday"
+            case 7 ->"Sunday"
+            default -> "Your nummber is not between 1 and 7!"
 
 
         //--------------------------------------------------------------------------------------------------------------
@@ -75,5 +105,6 @@ public class Main {
         System.out.println("Optional exercises");
         // 01.  Try to come up with a program on your own and the tools you
         //    know so far. Try to implement user input.
+
     }
 }
