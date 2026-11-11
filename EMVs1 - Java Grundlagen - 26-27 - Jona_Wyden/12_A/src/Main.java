@@ -21,6 +21,15 @@ public class Main {
         //      3. How can you modify the code to achieve the desired output:
         //         i:0 i:1 i:2 i:3 i:4 i:5 i:6 i:7 i:8 i:9
 
+        // 1. The loop would run infinitely.
+        // 2. Because iteratorEx1 is never increased.
+        // 3. Add iteratorEx1++ to the for-loop.
+
+        for (int iteratorEx1 = 0; iteratorEx1 < 10; iteratorEx1++) {
+            System.out.print("i:" + iteratorEx1 + " ");
+        }
+        System.out.println();
+
 
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 02");
@@ -36,6 +45,66 @@ public class Main {
         //      02-09. Even numbers from 10 to -10 (descending)
         //      02-10. Odd numbers from 10 to -10 (descending)
 
+        System.out.println("02-01");
+        for (int i = 0; i <= 100; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        System.out.println("02-02");
+        for (int i = 42; i <= 100; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        System.out.println("02-03");
+        for (int i = 42; i <= 123; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        System.out.println("02-04");
+        for (int i = 0; i <= 10; i += 2) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        System.out.println("02-05");
+        for (int i = 1; i <= 10; i += 2) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        System.out.println("02-06");
+        for (int i = -10; i <= 20; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        System.out.println("02-07");
+        for (int i = 35; i >= 0; i--) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        System.out.println("02-08");
+        for (int i = 15; i >= -20; i--) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        System.out.println("02-09");
+        for (int i = 10; i >= -10; i -= 2) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        System.out.println("02-10");
+        for (int i = 9; i >= -10; i -= 2) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
 
         //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 03");
@@ -43,7 +112,9 @@ public class Main {
 
         int forSum_03 = 0;
 
-        // Your code here
+        for (int i = 0; i <= 100; i++) {
+            forSum_03 += i;
+        }
 
         System.out.println(forSum_03); // Should be 5050
 
@@ -53,7 +124,9 @@ public class Main {
 
         int forSum_04 = 0;
 
-        // Your code here
+        for (int i = 0; i <= 100; i += 2) {
+            forSum_04 += i;
+        }
 
         System.out.println(forSum_04); // Should be 2550
 
@@ -63,7 +136,9 @@ public class Main {
 
         int forSum_05 = 0;
 
-        // Your code here
+        for (int i = 1; i <= 100; i += 2) {
+            forSum_05 += i;
+        }
 
         System.out.println(forSum_05); // Should be 2500
 
