@@ -29,7 +29,7 @@ public class Main {
         //      If a number is divisible by five, then print "Buzz".
         //      If a number is divisible by three and five, print "FizzBuzz".
 
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 100; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("FizzBuzz");
             } else if (i % 3 == 0) {
