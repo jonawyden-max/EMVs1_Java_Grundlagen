@@ -18,10 +18,10 @@ public class Main {
 
         int anzahlVersuche = 1;
 
-        int case1 = 0;
-        int case2 = 0;
-        int case3 = 0;
-        int case4 = 0;
+        String case1 = "a";
+        String case2 = "a";
+        String case3 = "a";
+        String case4 = "a";
 
         int guessedNumber1 = 0;
         int guessedNumber2 = 0;
@@ -30,7 +30,7 @@ public class Main {
 
         boolean richtigerCode = false;
 
-        while (anzahlVersuche < 10 || richtigerCode == true) {
+        while (anzahlVersuche <= 10 && !richtigerCode) {
 
             Scanner userInput1 = new Scanner(System.in);
 
@@ -56,33 +56,33 @@ public class Main {
             System.out.print(guessedNumber4);
 
             if (guessedNumber1 == randomNumber1){
-                case1 = 2;
+                case1 = "✔";
             } else if (guessedNumber1 == randomNumber2 || guessedNumber1 == randomNumber3 || guessedNumber1 == randomNumber4) {
-                case1 = 1;
+                case1 = "❌";
             } else{
-                case1 = 0;
+                case1 = "";
             }
 
             if (guessedNumber2 == randomNumber2){
-                case2 = 2;
+                case2 = "✔";
             } else if (guessedNumber2 == randomNumber1 || guessedNumber2 == randomNumber3 || guessedNumber2 == randomNumber4) {
-                case2 = 1;
+                case2 = "❌";
             } else{
                 case2 = 0;
             }
 
             if (guessedNumber3 == randomNumber3){
-                case3 = 2;
+                case3 = "✔";
             } else if (guessedNumber3 == randomNumber1 || guessedNumber3 == randomNumber2 || guessedNumber3 == randomNumber4) {
-                case3 = 1;
+                case3 = "❌";
             } else{
                 case3 = 0;
             }
 
             if (guessedNumber4 == randomNumber4){
-                case4 = 2;
+                case4 = "✔";
             } else if (guessedNumber4 == randomNumber1 || guessedNumber4 == randomNumber2 || guessedNumber4 == randomNumber3) {
-                case4 = 1;
+                case4 = "❌";
             } else{
                 case4 = 0;
             }
@@ -105,13 +105,14 @@ public class Main {
         if (richtigerCode == true) {
 
             System.out.println("You cracked the Code.");
-            System.out.println("You tried it " + anzahlVersuche + ".");
+            System.out.println("You tried it " + anzahlVersuche + " times.");
 
         } else if (anzahlVersuche > 10) {
 
+            System.out.println("");
             System.out.println("To many tries!");
             System.out.println("The Police got you!");
-            System.out.println("The corect Code would be: ");
+            System.out.print("The corect Code would be: ");
             System.out.print(randomNumber1);
             System.out.print(randomNumber2);
             System.out.print(randomNumber3);
