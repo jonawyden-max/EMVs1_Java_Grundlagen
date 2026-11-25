@@ -28,8 +28,9 @@ public class Main {
         int guessedNumber3 = 0;
         int guessedNumber4 = 0;
 
-        while (anzahlVersuche < 10 || randomNumber1 == guessedNumber1 && randomNumber2 == guessedNumber2 &&
-                randomNumber3 == guessedNumber3 && randomNumber4 == guessedNumber4) {
+        boolean richtigerCode = false;
+
+        while (anzahlVersuche < 10 || richtigerCode == true) {
 
             Scanner userInput1 = new Scanner(System.in);
 
@@ -94,10 +95,14 @@ public class Main {
 
             anzahlVersuche += 1;
 
+            if (randomNumber1 == guessedNumber1 && randomNumber2 == guessedNumber2 &&
+                    randomNumber3 == guessedNumber3 && randomNumber4 == guessedNumber4){
+                richtigerCode = true;
+            }
+
         }
 
-        if (randomNumber1 == guessedNumber1 && randomNumber2 == guessedNumber2 && randomNumber3 == guessedNumber3 &&
-                randomNumber4 == guessedNumber4) {
+        if (richtigerCode == true) {
 
             System.out.println("You cracked the Code.");
             System.out.println("You tried it " + anzahlVersuche + ".");

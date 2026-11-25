@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15b4c42e-d5a5-46ea-ac51-682e6575b033" name="Changes" comment="" />
+    <list default="true" id="15b4c42e-d5a5-46ea-ac51-682e6575b033" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/EMVs1 - Java Grundlagen - 26-27 - Jona_Wyden/CrackTheCode/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/EMVs1 - Java Grundlagen - 26-27 - Jona_Wyden/CrackTheCode/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,95 +17,95 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000003237" />
-      <entry key="MS500" value="1.0031772624927036" />
-      <entry key="S2" value="1.2374177987196633" />
-      <entry key="S5" value="1.562607232209639" />
-      <entry key="S10" value="1.7501228256584909" />
-      <entry key="S30" value="1.9880078714748228" />
-      <entry key="S60" value="3.0907732702199087" />
-      <entry key="M2" value="8.372697190628148" />
-      <entry key="M5" value="23.413841775584565" />
-      <entry key="M10" value="39.78893647901857" />
-      <entry key="M15" value="52.52970191412656" />
-      <entry key="M30" value="78.2986059846055" />
-      <entry key="H1" value="102.19631323285856" />
-      <entry key="H2" value="119.15993322055151" />
-      <entry key="H4" value="129.3767952357279" />
-      <entry key="D1" value="138.955880818204" />
-      <entry key="W1" value="140.70523377015195" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000001044153635" />
+      <entry key="S5" value="1.0043911511505326" />
+      <entry key="S10" value="1.0995965386309823" />
+      <entry key="S30" value="2.6971294437432953" />
+      <entry key="S60" value="5.375606794147343" />
+      <entry key="M2" value="10.959556268887338" />
+      <entry key="M5" value="26.45409167342652" />
+      <entry key="M10" value="43.92984701890156" />
+      <entry key="M15" value="57.323662343190904" />
+      <entry key="M30" value="84.22171347597394" />
+      <entry key="H1" value="109.2059452398871" />
+      <entry key="H2" value="127.00406445860885" />
+      <entry key="H4" value="137.75041094831033" />
+      <entry key="D1" value="147.8439057042113" />
+      <entry key="W1" value="149.689039531184" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.548123410987934E-286" />
-      <entry key="S2" value="4.0386798692497663E-72" />
-      <entry key="S5" value="3.475529903767054E-29" />
-      <entry key="S10" value="1.0788326697497439E-14" />
-      <entry key="S30" value="8.93017913583921E-5" />
-      <entry key="S60" value="0.03220022292551075" />
-      <entry key="M2" value="0.6384855111984169" />
-      <entry key="M5" value="4.117016818783642" />
-      <entry key="M10" value="9.22828037171771" />
-      <entry key="M15" value="13.630244153649292" />
-      <entry key="M30" value="22.93881513621972" />
-      <entry key="H1" value="31.72379573714807" />
-      <entry key="H2" value="37.97265775567999" />
-      <entry key="H4" value="41.73159995735424" />
-      <entry key="D1" value="45.25005530928781" />
-      <entry key="W1" value="45.89187667027881" />
+      <entry key="MS100" value="7.937175189611957E-186" />
+      <entry key="MS500" value="9.548456924707682E-38" />
+      <entry key="S2" value="5.558828792351258E-10" />
+      <entry key="S5" value="1.9860643658395498E-4" />
+      <entry key="S10" value="0.01409277959041279" />
+      <entry key="S30" value="0.2415551720098194" />
+      <entry key="S60" value="0.5020894644667124" />
+      <entry key="M2" value="1.0676716134710238" />
+      <entry key="M5" value="4.1652436306132685" />
+      <entry key="M10" value="9.190551870701805" />
+      <entry key="M15" value="13.612154151282242" />
+      <entry key="M30" value="23.082524715626324" />
+      <entry key="H1" value="32.130768376014316" />
+      <entry key="H2" value="38.61727113628305" />
+      <entry key="H4" value="42.53616050141704" />
+      <entry key="D1" value="46.21470964670682" />
+      <entry key="W1" value="46.886754986894374" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8827029962909367" />
-      <entry key="MS500" value="0.9784458416103975" />
-      <entry key="S2" value="1.2295589275142331" />
-      <entry key="S5" value="1.5585572950929267" />
-      <entry key="S10" value="1.7478367539651443" />
-      <entry key="S30" value="1.987210300775508" />
-      <entry key="S60" value="3.1209594892837513" />
-      <entry key="M2" value="8.998513069244119" />
-      <entry key="M5" value="27.500693640864665" />
-      <entry key="M10" value="48.9836977692645" />
-      <entry key="M15" value="66.12672208563805" />
-      <entry key="M30" value="101.20859246725502" />
-      <entry key="H1" value="133.8995167869829" />
-      <entry key="H2" value="157.11999517711405" />
-      <entry key="H4" value="171.10138761332001" />
-      <entry key="D1" value="184.20465561095455" />
-      <entry key="W1" value="186.59692454893064" />
+      <entry key="MS100" value="3.098496995377483E-6" />
+      <entry key="MS500" value="0.07910978712314248" />
+      <entry key="S2" value="0.5303447381027974" />
+      <entry key="S5" value="0.7801906738894265" />
+      <entry key="S10" value="0.9901680971086174" />
+      <entry key="S30" value="2.8737958459515918" />
+      <entry key="S60" value="5.8304251148726625" />
+      <entry key="M2" value="11.990145903736881" />
+      <entry key="M5" value="30.581063029462964" />
+      <entry key="M10" value="53.082912247433846" />
+      <entry key="M15" value="70.89986772357682" />
+      <entry key="M30" value="107.27385703636673" />
+      <entry key="H1" value="141.31518571548165" />
+      <entry key="H2" value="165.6081958287555" />
+      <entry key="H4" value="180.27926539426994" />
+      <entry key="D1" value="194.05728056913983" />
+      <entry key="W1" value="196.57560075105562" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3MGugaRuEr1x1cLBtEFud2xTVsj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/JonaWyden/Dokumente/GitHub/EMVs1_Java_Grundlagen/EMVs1 - Java Grundlagen - 26-27 - Jona_Wyden/CrackTheCode/src/Main.java",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/JonaWyden/Dokumente/GitHub/EMVs1_Java_Grundlagen/EMVs1 - Java Grundlagen - 26-27 - Jona_Wyden/CrackTheCode/src/Main.java&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\JonaWyden\Dokumente\GitHub\EMVs1_Java_Grundlagen\EMVs1 - Java Grundlagen - 26-27 - Jona_Wyden\CrackTheCode" />
@@ -112,8 +114,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+        <option value="bundled-jdk-30f59d01ecdd-ac68fc9d2b05-intellij.indexing.shared.core-IU-263.7307.200" />
       </set>
     </attachedChunks>
   </component>
