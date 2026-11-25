@@ -302,7 +302,7 @@ public class Main {
             }
         }
 
-       */ //--------------------------------------------------------------------------------------------------------------
+        //--------------------------------------------------------------------------------------------------------------
         System.out.println("Exercise 06");
         // 06.  Print squares with Conditions:
         //      Write a program that prints the squares of numbers from 1 to 20, but with the following conditions:
@@ -310,6 +310,20 @@ public class Main {
         //      - Stop the loop if the square exceeds 200 (use break for this)
         //      Use a for loop, and make sure to use both continue and break statements.
         //      Calculate and print the sum of all odd squares (should be 365)
+
+
+        int summe = 0;
+
+        for (int anzahl = 0; anzahl <= 20; anzahl++){
+            if (anzahl % 3 == 0){
+                continue;
+            } else if (anzahl * anzahl > 200) {
+                break;
+            }else{
+                summe = anzahl * anzahl + summe;
+            }
+        }
+        System.out.println(summe);
 
 
         //--------------------------------------------------------------------------------------------------------------
@@ -320,15 +334,38 @@ public class Main {
         //      Print the amount of prime numbers and the prime numbers.
         //      Also print the amount of non-prime numbers.
 
+
+
         System.out.print("Prime numbers from 100 to 200: ");
         int primesCounter = 0;
         int nonPrimesCounter = 0;
 
-        // Your solution here
+        for (int anzahl = 100; anzahl <= 200; anzahl++) {
+
+            boolean isPrime = true;
+
+            for (int i = 2; i * i <= anzahl; i++) {
+
+                if (anzahl % i == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+
+            if (!isPrime) {
+                nonPrimesCounter++;
+                continue;
+            }
+
+            System.out.print(anzahl + " ");
+            primesCounter++;
+        }
 
         System.out.println("\nTotal numbers: " + (primesCounter + nonPrimesCounter) + ".");
         System.out.println("Number of non-prime numbers: " + nonPrimesCounter);
         System.out.println("Number of prime numbers: " + primesCounter);
+
+
 
 
         //--------------------------------------------------------------------------------------------------------------
